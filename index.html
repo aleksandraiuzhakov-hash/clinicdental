@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentTerrassa</title>
+    <link rel="icon" href="../dental/imagenes/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="reset/css" href="css/reset.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+        <!-- header -->
+    <header class="container-fluid header-main">
+        <div class="container">
+            <section class="row ">
+                <div class="col-12 m-0 menu">
+                    <div class="col-2 logo-section">
+                        <a href="index.html" target="_blank">
+                            <figure class="logo m-0">
+                                <img src="imagenes/logoheader.svg" alt="logoheader">
+                            </figure>
+                        </a>
+                    </div>
+                    <nav class="col-5 menu-nav">
+                        <ul class="nav-list m-0">
+                            <li class="nav-item"><a class="nav-link" target="_blank" href="sevicios.html">Servicios</a>
+                            </li>
+                            <li class="line__menu"></li>
+                            <li class="nav-item line-item"><a class="nav-link" target="_blank"
+                                    href="galeria.html">Galería</a></li>
+                            <li class="line__menu"></li>
+                            <li class="nav-item"><a class="nav-link" target="_blank" href="contacte.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="col-2 search-section ">
+                        <input type="search" class="search-input" placeholder="Busca en DentTerrassa">
+                    </div>
+                    <div class="col-1 social-section">
+                        <a href="#" target="_blank" class="social-link redes" aria-label="WhatsApp DentTerrassa">
+                            <img src="imagenes/whatsappiacon.svg" alt="whatsapp">
+                        </a>
+                        <a href="#" target="_blank" class="social-link redes" aria-label="Instagram">
+                            <img src="imagenes/instagramiacon.svg" alt="Instagram DentTerrassa">
+                        </a>
+                    </div>
+                    <div class="col-2 login-section">
+                        <a href="iniciar.html" class="boton">Iniciar Sesión</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- block1 -->
+    <section class="continer-fluid fondo__block1">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 section__block1">
+                    <div class="col-6 text__block1 ">
+                        <div class="titile__text">
+                            <p class="subtitle">
+                                ¡Sonrisas perfectas <span class="subtitle__media">con</span> tecnología avanzada!
+                            </p>
+                            <h1>
+                                Tu clínica dental en Terrassa
+                            </h1>
+                        </div>
+                        <div class="buttons">
+                            <div class="button">
+                                <a class="boton boton-block1" href="contacte.html">Pedir cita</a>
+                            </div>
+                            <div class="button__two">
+                                <a class="button__servicio" href="sevicios.html">Ver todos los servicios</a>
+                            </div>
+                        </div>
+                        <div class="col-12 section__facts">
+                            <div class="col-6 section__facts-column">
+                                <figure class="foto__facts">
+                                    <img src="imagenes/pacientos.png" alt="pacientos">
+                                </figure>
+                                <div class="text__desctipcion-uno">
+                                    <span>50 mil</span>
+                                    <p>Pacientes satisfechos</p>
+                                </div>
+                            </div>
+                            <div class="col-6 section__facts-column">
+                                <figure class="foto__facts">
+                                    <img src="imagenes/garantia.png" alt="">
+                                </figure>
+                                <div class="text__desctipcion-uno">
+                                    <span>100%</span>
+                                    <p>Garantizamos resultados</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7  m-0">
+                        <figure class="m-0">
+                            <img src="imagenes/fotoprincipal.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+    <section class="container">
+        <!-- block2 -->
+        <aside class="block__dos">
+            <div class="row">
+                <div class="col-12 section__block2">
+                    <div class="col-6">
+                        <h2>Sobre la clínica</h2>
+                        <div class="section__mision">
+                            <div class="mision__text">
+                                <span class="mision__text-title">Nuestra misión</span>
+                                <span class="mision__text-element">
+                                    “
+                                </span>
+                            </div>
+                            <div class="text__mision">
+                                <span>
+                                    – Ofrecer atención odontológica de calidad de forma honesta y ética.
+                                </span>
+                            </div>
+                            <div class="nombre__foto">
+                                <div class="line"></div>
+                                <p>Director médico DentTerrassa</p>
+                                <figure><img src="imagenes/fotoderictor.jpg" alt=""></figure>
+                            </div>
+                        </div>
+                        <div class="col-12 section__contactos ">
+                            <div class="col-6 contactos ">
+                                <div class="contactos__text">
+                                    <h3>Nuestros contactos</h3>
+                                </div>
+                                <div class="contactos__button">
+                                    <a href="contacte.html"><img src="imagenes/arrowblock2.svg" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 contactos ">
+                                <div class="contactos__text">
+                                    <h3>Nuestros Servicios</h3>
+                                </div>
+                                <div class="contactos__button">
+                                    <a href="sevicios.html"><img src="imagenes/arrowblock2.svg" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <figure class="section__foto-block2">
+                            <img src="imagenes/fotoclinikblock2.jpg" alt="odontologo">
+                            <div class="section__foto-block2-text">
+                                <div class="contactos__text text-color">
+                                    <h3>Nuestra galería</h3>
+                                </div>
+                                <div class="galeria__button">
+                                    <a href="galeria.html"><img src="imagenes/arrowblockv2.svg" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </figure>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- block3 -->
+
+        <aside class="block__tres">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-centre title__equipo">Nuestra Equipo</h2>
+                    <div class="galeria__eqipo">
+                        <div class="slider-container">
+                            <div class="slides active">
+                                <figure>
+                                    <img src="imagenes/dralaurafernandez.jpg" alt="Dra. Laura Fernandez">
+                                </figure>
+                                <div class="slide__text">
+                                    <h3>Dra. Laura Fernández Ruiz</h3>
+                                    <p>Ortodoncista y estética dental Máster Ortodoncia (Barcelona).</p>
+                                    <p>Experta en brackets y carillas de porcelana.</p>
+                                </div>
+                            </div>
+                            <div class="slides">
+                                <figure><img src="imagenes/drjaviermorales.jpg" alt="Dr. Javier Morales"></figure>
+                                <div class="slide__text">
+                                    <h3>Dr. Javier Morales García</h3>
+                                    <p>Médico director, Estomatólogo general e implantólogo BDS (Barcelona), PG DIP
+                                        Implantología (Madrid).</p>
+                                    <p>Especialista en implantes y cirugía oral.</p>
+                                </div>
+                            </div>
+                            <div class="slides">
+                                <figure>
+                                    <img src="imagenes/demiguelangel.jpg" alt="Dr. Miguel Angel">
+                                </figure>
+                                <div class="slide__text">
+                                    <h3>Dr. Miguel Ángel Soto Pérez</h3>
+                                    <p>Endodoncista y cirugía maxilofacial DDS (Valencia), Máster Cirugía Oral
+                                        (Barcelona).</p>
+                                    <p>Tratamiento de canales y extracciones complejas.</p>
+                                </div>
+                            </div>
+                            <div class="slides">
+                                <figure>
+                                    <img src="imagenes/drasofiadelgado.jpg" alt="Dra. Sofia Delgado">
+                                </figure>
+                                <div class="slide__text">
+                                    <h3>Dra. Sofia Delgado Martín</h3>
+                                    <p>Higienista dental y odontopediatría Grado Higiene Bucodental (Tarragona),
+                                        Especialista Niños (Barcelona).</p>
+                                    <p>Limpiezas profesionales y atención infantil sin miedo.</p>
+                                </div>
+                            </div>
+                            <div class="slides">
+                                <figure>
+                                    <img src="imagenes/drcarlosrubio.jpg" alt="Dr. Carlos Rubio">
+                                </figure>
+                                <div class="slide__text">
+                                    <h3>Dr. Carlos Rubio Navarro</h3>
+                                    <p>Periodoncista y prótesis dentales Máster Periodoncia (Madrid), PG DIP Prótesis
+                                        (Barcelona).</p>
+                                    <p>Tratamiento de encías y prótesis fijas/removibles.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="buttons__slaider">
+                            <div class="button__slaider prevBtn"><a href="#"><img src="imagenes/arrowleft.svg"
+                                        alt="prev"></a></div>
+                            <div class="button__slaider nextBtn"><a href="#"><img src="imagenes/arrowright.svg"
+                                        alt="next"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- block4 -->
+        <aside class="block__cuatro">
+            <h2 class="text-centre">¿Por qué eligen DentTerrassa?</h2>
+            <div class="block__cuatro-grid">
+                <div class="block__cuatro-grid__item columna-1">
+                    <div class="block__cuatro-name">
+                        <h3>Equipo multilingüe</h3>
+                    </div>
+                    <p>Disfruta de servicios odontológicos de alta calidad con nuestro equipo multilingüe de
+                        médicos.</p>
+                </div>
+                <div class="block__cuatro-grid__item columna-3">
+                    <div class="block__cuatro-name">
+                        <h3>Equipamiento moderno</h3>
+                    </div>
+                    <p>Aprovecha nuestro laboratorio moderno y tecnologías avanzadas para tratamientos precisos.</p>
+                </div>
+                <figure class="columna-2"><img src="imagenes/fotoblockfacts.png" alt="blockfacts"></figure>
+                <div class="block__cuatro-grid__item columna-4">
+                    <div class="block__cuatro-name">
+                        <h3>Equipamiento moderno</h3>
+                    </div>
+                    <p>Aprovecha nuestro laboratorio moderno y tecnologías avanzadas para tratamientos precisos.</p>
+                </div>
+                <div class="block__cuatro-grid__item columna-5">
+                    <div class="block__cuatro-name">
+                        <h3>Enfoque individual</h3>
+                    </div>
+                    <p>Enfoque personal e individualizado para tu sonrisa perfecta.</p>
+                </div>
+            </div>
+        </aside>
+        <!-- block5 -->
+        <aside class="block__cinco">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-centre">Conoce DentTerrassa</h2>
+                    <div class="videos__slider">
+                        <video id="video" src="videos/video1.mp4" style="border-radius: 1rem; max-width: 1100px;"
+                            height="500" autoplay muted></video>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </section> <!-- block6 -->
+    <section class="container-fluid fondo-footer">
+        <div class="container">
+            <aside class="block__seis">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="fondo block__seis-espacio">
+                            <h2 class="text-centre text-foo">Contacto</h2>
+                            <div class="wraper__contacto col-10">
+                                <div class="col-4">
+                                    <form method="POST">
+                                        <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
+                                        <input type="email" name="email" id="email" placeholder="Correo Electronico"
+                                            required>
+                                        <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+                                        <textarea  name="message" id="message"
+                                            placeholder="Mensaje"></textarea>
+                                        <div class="buttons__formulario">
+                                            <button class="boton  boton-formuraio">Enviar</button>
+                                            <button class="boton boton-formuraio">Borrar</button>
+                                        </div>
+                                        <output id="outResultado"></output>
+                                    </form>
+                                </div>
+                                <div class="col-6">
+                                    <div id="map"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- footer  -->
+            <footer>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="line__footer"></div>
+                        <div class="footer__horariomapa">
+                            <div class="col-4 horario">
+                                <figure><img src="imagenes/horario.svg" alt="horario"></figure>
+                                <div class="horariomapa__text">
+                                    <h3>Trabajamos sin fines de semana</h3>
+                                    <p>De 8:00 a 20:00, sáb hasta 18:00</p>
+                                </div>
+                            </div>
+                            <div class="col-3 logofooter">
+                                <figure><img src="imagenes/logofooter.svg" alt="logo"></figure>
+                            </div>
+                            <div class="col-4 dericcion">
+                                <figure><img src="imagenes/mapa.svg" alt="mapa"></figure>
+                                <div class="horariomapa__text">
+                                    <h3>Nos encontramos en:</h3>
+                                    <p>Carrer de Sant Antoni, 123, Terrassa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mapa__sitioweb">
+                        <div class="col-2">
+                            <a href="sevicios.html" class="nav-link" target="_blank">Servicios</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="galeria.html" class="nav-link" target="_blank">Galería</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="contacte.html" class="nav-link" target="_blank">Contacto</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="iniciar.html" class="nav-link" target="_blank">Iniciar Sesión</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="registre.html" class="nav-link" target="_blank">Registro</a>
+                        </div>
+                    </div>
+                    <div class="col-12 section__footer__info">
+                        <span class="footer__info">
+                            © DentTerrassa 2026
+                        </span>
+                    </div>
+                    <div class="col-12 section__footer">
+                        <div class="col-4">
+                            <a href="#" class="nav-link" target="_blank">Politica de privacidad</a>
+                        </div>
+                        <div class="col-4">
+                            <p class="creadora">By<span> Aleksandra Iuzhakov</span> - <span>CIFO 2026</span></p>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" class="nav-link" target="_blank">Aviso legal</a>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+    </section>
+    <div id="cookieBanner" class="cookie-banner hidden">
+        <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio web.</p>
+        <button id="acceptCookies">Aceptar</button>
+        <button id="declineCookies">Declinar</button>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/script.js"></script>
+    <script src="js/shiftq.js"></script>
+    <script src="js/cookies.js"></script>
+    <script src="js/mapa.js"></script>
+</body>
+
+
+</html>
