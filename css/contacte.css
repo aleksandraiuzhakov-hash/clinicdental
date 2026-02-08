@@ -1,0 +1,93 @@
+.fondo__block1 {
+
+    margin: 0;
+}
+
+.wraper__contacto {
+    margin-top: 2rem;
+}
+
+.section__block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+hgroup {
+    text-align: center;
+}
+
+hgroup p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.04em;
+    background: linear-gradient(122deg, #cdbaa0 0%, #f1e8dc 55.62%, #cbb89f 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wraper__iniciar, .wraper__contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid var(--akc);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.buttonderegistr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer {
+    margin-top: 8rem;
+}
+
+.section__footer {
+    margin-top: rem;
+}
+
+.text-regestrarse {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.margin-espacio {
+    margin-top: 2rem;
+}
+
+.cuenta {
+    margin-top: 2rem;
+}
+
+.promosion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text-left {
+    justify-content: left;
+}

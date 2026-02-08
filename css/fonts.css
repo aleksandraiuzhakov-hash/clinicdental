@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-style: normal;
+    src: local("Montserrat"),
+        url("/dental/asset/fonts/Montserrat-Light.woff2") format(woff2),
+        url("/dental/asset/fonts/Montserrat-Light.woff") format(woff),
+        url("/dental/asset/fonts/Montserrat-Light.eot") format(eot),
+    ;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Montserrat"),
+        url("/dental/asset/fonts/Montserrat-Regular.woff2") format(woff2),
+        url("/dental/asset/fonts/Montserrat-Regular.woff") format(woff),
+        url("/dental/asset/fonts/Montserrat-Regular.eot") format(eot),
+    ;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: local("Montserrat"),
+        url("/dental/asset/fonts/Montserrat-Medium.woff2") format(woff2),
+        url("/dental/asset/fonts/Montserrat-Medium.woff") format(woff),
+        url("/dental/asset/fonts/Montserrat-Medium.eot") format(eot),
+    ;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+    src: local("Montserrat"),
+        url("/dental/asset/fonts/Montserrat-SemiBold.woff2") format(woff2),
+        url("/dental/asset/fonts/Montserrat-SemiBold.woff") format(woff),
+        url("/dental/asset/fonts/Montserrat-SemiBold.eot") format(eot),
+    ;
+    font-display: swap;
+
+}
