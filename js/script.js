@@ -1,19 +1,19 @@
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    var lista = ["videos/video1.mp4", "videos/video2.mp4", "videos/video3.mp4"];
+    var indice = 1;
 
-var lista = ["videos/video1.mp4","videos/video2.mp4","videos/video3.mp4"];
-var indice = 1;
+    window.onload = function () {
+        video.onended = function () {
+            this.src = lista[indice];
+            indice = (indice + 1) % lista.length
 
-window.onload = function(){
-    video.onended = function(){
-        this.src = lista[indice];
-        indice = (indice+1)%lista.length
-    
+        }
     }
-}
+});
 
-
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const slides = document.querySelectorAll('.slides');
     const nextBtn = document.querySelector('.nextBtn');
     const prevBtn = document.querySelector('.prevBtn');
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         current = (current + 1) % total;
         showSlide(current);
-        resetAutoSlide(); 
+        resetAutoSlide();
     });
 
     prevBtn.addEventListener('click', (e) => {
@@ -61,8 +61,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     startAutoSlide();
 
-  
-    const sliderContainer = document.querySelector('.slider-container') || document.querySelector('.galeria__eqipo');
-    sliderContainer.addEventListener('mouseenter', stopAutoSlide);
-    sliderContainer.addEventListener('mouseleave', startAutoSlide);
 });
