@@ -780,15 +780,8 @@ footer {
 
 @media (max-height: 900px) {
     h1 {
-        font-size: 5rem;
-    }
-
-}
-
-@media (min-height: 1081px) {
-
-    
-    h1 {
         font-size: 4.5rem;
     }
+
 }
+
